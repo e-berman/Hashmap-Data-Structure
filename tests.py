@@ -149,3 +149,6 @@ class TestCase(unittest.TestCase):
                     Current list: {}'.format(
                         map.get_keys()
                     ))
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
